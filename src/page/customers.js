@@ -9,7 +9,8 @@ import veeam from '../img/veeam_logo_white-500.png.web.1280 2.png'
 const Customers = () => {
     const imageBaza =[festagent, armix, festagent, yandix, work, hunter, hunter, veeam, yandix]
     return (
-        <div className="text-light w-75 m-auto">
+        <div className="text-light w-75 m-auto position-relative">
+            <h1 className="customers-rotate">Our customers</h1>
             <h1>We have collaborated with <br/> brands such as</h1>
             <div className="row">
                 {imageBaza.map(item=>{

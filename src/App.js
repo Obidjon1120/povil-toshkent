@@ -6,7 +6,8 @@ import Portifolio from "./page/portifolio";
 
 function App() {
   return (
-      <div className="container">
+      <div className="container position-relative">
+          <div className="line"></div>
           <Navbar/>
           <Portifolio/>
           <Customers />

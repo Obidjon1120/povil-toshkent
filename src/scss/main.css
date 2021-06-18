@@ -9,9 +9,39 @@ body{
     background: #141313;
     /*color: white;*/
 }
+a{
+    cursor: pointer;
+}
+.line{
+    height: 100%;
+    width: 1px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.portfolio-rotate{
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 68px;
+    left: -220px;
+}
+.customers-rotate{
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 170px;
+    left: -270px;
+}
+.contacts-rotate{
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 70px;
+    left: -210px;
+}
 .flex-container{
     display: flex;
     align-items: stretch;
+    flex-flow: wrap;
 }
 .flex-container>div{
     width: 100px;

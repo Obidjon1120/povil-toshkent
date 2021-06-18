@@ -6,7 +6,8 @@ import artex from '../img/Artexhibition4.png'
 
 const Portifolio = () => {
     return (
-        <div className="text-light w-75 m-auto">
+        <div className="text-light w-75 m-auto position-relative">
+            <h1 className="portfolio-rotate">Portifolio</h1>
            <div className="row">
                <div className="col-6">
                    <div className="card-standart">

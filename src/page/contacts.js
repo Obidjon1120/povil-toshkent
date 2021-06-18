@@ -8,7 +8,8 @@ import {AvForm, AvField} from 'availity-reactstrap-validation'
 
 const Contacts = () => {
     return (
-        <div className="contacts">
+        <div className="contacts w-75 m-auto position-relative">
+            <h1 className="contacts-rotate">Contacts</h1>
             <div>
                 <h1>Contact us</h1>
                 <p>let's get to the nex level together</p>
@@ -23,18 +24,18 @@ const Contacts = () => {
                     </AvForm>
                 </div>
                 <div >
-                    <div className="d-flex p-2">
+                    <a href="tel: +1(647)-563-9114" className="d-flex p-2 text-decoration-none text-light">
                         <IoMdCall className="m-1"/>
                         <p className="m-0">+1(647)-563-9114</p>
-                    </div>
-                    <div className="d-flex p-2">
+                    </a>
+                    <a href="mailto:lead@gmail.com" className="d-flex p-2 text-light text-decoration-none">
                         <GoMail className="m-1"/>
                         <p className="m-0">lead@gmail.com</p>
-                    </div>
-                    <div className="d-flex p-2">
+                    </a>
+                    <a href="https://maps.google.com/maps?q=41.281506,69.170389&ll=41.281506,69.170389&z=16" className="d-flex p-2 text-light text-decoration-none">
                         <MdLocationOn className="m-1"/>
                         <p className="m-0">Margaretenstraße 70/3, 1050 Vienna, Austria</p>
-                    </div>
+                    </a>
                     <div className="d-flex p-2">
                         <div className="border hover-card p-4 m-2">
                             <h3>Become a client</h3>
